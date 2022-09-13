@@ -1,4 +1,4 @@
-//Solution to exercise 1.11
+//Solution to exercise 1.11 and 1.19
 #include<iostream>
 
 int main() {
