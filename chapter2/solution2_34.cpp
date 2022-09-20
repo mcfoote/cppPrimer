@@ -14,7 +14,7 @@ int main() {
     const auto f = ci;
 
     auto &g = ci;
-    auto &h = 42;
+    auto &h = 42; // error
     const auto &j = 42;
 
     std::cout << "a: " << a;
@@ -28,9 +28,9 @@ int main() {
     a = 42;
     b = 42;
     c = 42;
-    d = 42;
-    e = 42;
-    g = 42;
+    d = 42; //error
+    e = 42; //error
+    g = 42; //error
 
     std::cout << "a: " << a;
     std::cout << "b: " << b;
