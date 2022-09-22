@@ -5,7 +5,7 @@ int main() {
     int *p1 = &i; // init *p1 to point to i address
     *p1 = *p1 * *p1; // i = i * i
     std::cout << i << std::endl;
-    
+
     //prevent application autoexit
     std::string exitStr;
     std::cout << "Enter x to exit" << std::endl;
