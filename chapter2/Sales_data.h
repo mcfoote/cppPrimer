@@ -1,3 +1,6 @@
+#ifndef SALES_DATA_H
+#define SALES_DATA_H
+
 #include<string>
 
 struct Sales_data {
@@ -8,4 +11,4 @@ struct Sales_data {
 
 };
 
-Sales_data accum, trans, *salesptr;
+#endif
