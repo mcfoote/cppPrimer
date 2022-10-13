@@ -10,17 +10,17 @@ int main() {
     
     string str = "some string";
 
-    cout << str;
+    cout << str << endl;
 
     for(int i = 0; i < str.length(); i++) {
         str[i] = 'X';
     }
 
-    cout << str;
+    cout << str << endl;
 
     string str2 = "some string";
 
-    cout << str2;
+    cout << str2 << endl;
 
     int j = 0;
     while(j < str2.length()) {
@@ -28,6 +28,6 @@ int main() {
         j++;
     }
 
-    cout << str2;
+    cout << str2 << endl;
 
 }
